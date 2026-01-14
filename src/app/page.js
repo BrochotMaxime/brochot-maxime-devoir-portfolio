@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Accueil – Portfolio John Doe',
-  description: 'Portfolio de John Doe, développeur web front-end'
+  title: 'Portfolio – John Doe',
+  description: 'Développeur web front-end React'
 }
 
 export default function Home() {
