@@ -4,6 +4,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import BootstrapClient from '@/components/BootstrapClient'
 
+import Header from '@/components/Header/Header';
+import Footer from '@/components/Footer/Footer';
+
 export const metadata = {
   title: 'Portfolio – John Doe',
   description: 'Portfolio de John Doe, développeur web front-end'
@@ -11,10 +14,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr">
+    <html lang="en">
       <body>
-        {children}
+        <BootstrapClient />
+        <Header />
+        <main className="flex-grow-1">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
-  )
+  );
 }
