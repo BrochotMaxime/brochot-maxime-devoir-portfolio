@@ -40,3 +40,35 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+/* GLOBAL HOVER EFFECTS */
+
+/* Header navigation links */
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer links */
+footer a {
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
+
+footer i {
+  color: #505050;
+  transition: color 0.3s ease;
+}
+
+footer i:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
