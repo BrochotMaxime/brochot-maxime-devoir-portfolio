@@ -42,7 +42,6 @@ a {
 }
 
 
-
 /* GLOBAL HOVER EFFECTS */
 
 /* Header navigation links */
@@ -71,4 +70,37 @@ footer i {
 footer i:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+
+
+/* PAGE STYLES */
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  background: url("/hero-bg.jpg") no-repeat center center/cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  z-index: 1;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 24px;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #0d6efd; /* Bootstrap primary */
 }
