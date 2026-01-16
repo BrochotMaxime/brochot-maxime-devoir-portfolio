@@ -42,7 +42,6 @@ a {
 }
 
 
-
 /* GLOBAL HOVER EFFECTS */
 
 /* Header navigation links */
@@ -71,4 +70,13 @@ footer i {
 footer i:hover {
   color: #ffffff;
   text-decoration: underline;
+}
+
+
+/* PAGE STYLES */
+
+.hero {
+  min-height: 100vh;
+  background: url("/hero-bg.jpg") no-repeat center center/cover;
+  opacity: 0.75;
 }
