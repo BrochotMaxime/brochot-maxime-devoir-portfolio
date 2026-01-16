@@ -2,7 +2,7 @@ export default function About() {
     return (
             <div className="col-md-6">
                 <div className="row align-items-center">
-                        <h3 className="fw-bold border-bottom border-info ">A propos</h3>
+                        <h3 className="section-title fw-bold">A propos</h3>
                         <img src="/john-doe-about.jpg" alt="John Doe profile picture" className="mb-3"/>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra lorem eget velit interdum venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue nulla at orci facilisis pulvinar.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin viverra lorem eget velit interdum venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue nulla at orci facilisis pulvinar.</p>
