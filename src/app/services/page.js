@@ -1,12 +1,19 @@
+import ServicesHero from "@/components/Services/ServicesHero";
+import ServicesList from "@/components/Services/ServicesList";
+
 export const metadata = {
-  title: 'Portfolio – John Doe',
-  description: 'Développeur web front-end React'
-}
+  title: "Services – John Doe",
+  description: "Services proposés par John Doe, développeur web",
+};
 
 export default function ServicesPage() {
   return (
-    <main className="container py-5">
-      <h1>Services</h1>
+    <main>
+      <ServicesHero />
+
+      <section className="container py-5">
+        <ServicesList />
+      </section>
     </main>
   );
 }
