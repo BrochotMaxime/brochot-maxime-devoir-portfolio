@@ -42,7 +42,7 @@ const projectsData = [
 export default function PortfolioList() {
   return (
     <>
-        <div className="section-title text-center mb-5">
+        <div className="page-title text-center mb-5 pb-4">
             <h2 className="fw-bold">Portfolio</h2>
             <p>Voici quelques-unes de mes réalisations</p>
         </div>

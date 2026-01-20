@@ -21,7 +21,7 @@ const servicesData = [
 export default function ServicesList() {
   return (
     <>
-      <div className="section-title text-center mb-5">
+      <div className="page-title text-center mb-5 pb-4">
         <h2 className="fw-bold">Mon offre de services</h2>
         <p>Voici les prestations sur lesquelles je peux intervenir</p>
       </div>
