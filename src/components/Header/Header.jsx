@@ -11,7 +11,7 @@ export default function Header() {
         { name: "Services", path: "/services" },
         { name: "Portfolio", path: "/portfolio" },
         { name: "Contact", path: "/contact" },
-        { name: "Mentions légales", path: "/mentions-legales" },
+        { name: "Mentions légales", path: "/legal" },
     ];
 
     return (
