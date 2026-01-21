@@ -93,6 +93,12 @@ footer i:hover {
   background: url("/hero-bg.jpg") no-repeat center center/cover;
 }
 
+/* required to place content above the overlay */
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -142,6 +148,8 @@ footer i:hover {
 }
 
 /* Buttons */
+
+
 .portfolio-card .btn,
 .contact-form .btn {
   transition: background-color 0.3s ease;
