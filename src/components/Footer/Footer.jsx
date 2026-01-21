@@ -57,7 +57,7 @@ export default function Footer() {
                             <li><Link href="/services" className="text-light text-decoration-none">Services</Link></li>
                             <li><Link href="/portfolio" className="text-light text-decoration-none">Portfolio</Link></li>
                             <li><Link href="/contact" className="text-light text-decoration-none">Contact</Link></li>
-                            <li><Link href="/mentions-legales" className="text-light text-decoration-none">Mentions légales</Link></li>
+                            <li><Link href="/legal" className="text-light text-decoration-none">Mentions légales</Link></li>
                         </ul>
                     </div>
 
