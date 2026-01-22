@@ -9,7 +9,8 @@ import Footer from '@/components/Footer/Footer';
 
 export const metadata = {
   title: 'Portfolio – John Doe',
-  description: 'Portfolio de John Doe, développeur web front-end'
+  description: 'Portfolio de John Doe, développeur web full stack, développé en tant que projet final de la partie front-end de la formation du Centre Européen de Formation.',
+  icon: '/favicon.ico'
 }
 
 export default function RootLayout({ children }) {

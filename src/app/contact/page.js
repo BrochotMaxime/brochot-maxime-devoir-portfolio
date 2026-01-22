@@ -3,7 +3,7 @@ import ContactInfo from "@/components/Contact/ContactInfo";
 
 export const metadata = {
   title: "Contact – John Doe",
-  description: "Contacter John Doe, développeur web",
+  description: "Contacter John Doe, développeur web, pour des projets de site web ou d'application, pour des opportunités professionnelles, ou pour tout autre renseignement.",
 };
 
 export default function ContactPage() {
