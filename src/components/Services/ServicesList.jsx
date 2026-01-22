@@ -19,20 +19,20 @@ const servicesData = [
 ];
 
 export default function ServicesList() {
-  return (
-    <>
-      <div className="page-title text-center mb-5 pb-4">
-        <h2 className="fw-bold">Mon offre de services</h2>
-        <p>Voici les prestations sur lesquelles je peux intervenir</p>
-      </div>
+    return (
+        <>
+            <div className="page-title text-center mb-5 pb-4">
+                <h1 className="fw-bold">Mon offre de services</h1>
+                <p>Voici les prestations sur lesquelles je peux intervenir</p>
+            </div>
 
-      <div className="row g-4">
-        {servicesData.map((service) => (
-          <div className="col-md-4" key={service.title}>
-            <ServiceCard {...service} />
-          </div>
-        ))}
-      </div>
-    </>
-  );
+            <div className="row g-4">
+                {servicesData.map((service) => (
+                <div className="col-md-4" key={service.title}>
+                    <ServiceCard {...service} />
+                </div>
+                ))}
+            </div>
+        </>
+    );
 }
