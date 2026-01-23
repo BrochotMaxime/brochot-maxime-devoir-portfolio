@@ -3,7 +3,7 @@ import PortfolioList from "@/components/Portfolio/PortfolioList";
 
 export const metadata = {
   title: "Réalisations – John Doe",
-  description: "Portfolio et réalisations de John Doe, développeur web",
+  description: "Découvrez les réalisations de John Doe, la création de sites web, l'amélioration du référecencement SEO, la création d'API et la maquettage d'un site web.",
 };
 
 export default function RealisationsPage() {
