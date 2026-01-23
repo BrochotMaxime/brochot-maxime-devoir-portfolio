@@ -1,6 +1,6 @@
 export default function ServicesHero() {
-  return (
-    <section className="services-hero">
-    </section>
-  );
+    return (
+        <section className="services-hero">
+        </section>
+    );
 }

@@ -7,12 +7,12 @@ export const metadata = {
 };
 
 export default function ServicesPage() {
-  return (
-    <main>
-        <ServicesHero />
-        <section className="container py-5">
-            <ServicesList />
-        </section>
-    </main>
-  );
+    return (
+        <main>
+            <ServicesHero />
+            <section className="container py-5">
+                <ServicesList />
+            </section>
+        </main>
+    );
 }

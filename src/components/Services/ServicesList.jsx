@@ -22,7 +22,7 @@ export default function ServicesList() {
     return (
         <>
             <div className="page-title text-center mb-5 pb-4">
-                <h1 className="fw-bold">Mon offre de services</h1>
+                <h1>Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
             </div>
 

@@ -30,7 +30,7 @@ function SkillsList() {
 export default function Skills() {
     return (
         <div className="col-md-6">
-            <h3 className="section-title mb-6 fw-bold">Mes compétences</h3>
+            <h3 className="section-title mb-6">Mes compétences</h3>
             <SkillsList />
         </div>
     );
