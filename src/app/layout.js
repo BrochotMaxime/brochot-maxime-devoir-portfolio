@@ -25,7 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={nunito.variable}>
+            <body className={nunito.className}>
                 <BootstrapClient />
                 <Header />
                 <main className="flex-grow-1">
