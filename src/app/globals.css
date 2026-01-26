@@ -19,17 +19,12 @@ body {
 
 body {
   font-weight: 400;
-  font-family: var(--font-nunito), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-main), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, strong {
   font-weight: 600 !important;
 }
-
-strong {
-  font-weight: 600 !important;
-}
-
 
 * {
   box-sizing: border-box;
@@ -48,10 +43,8 @@ a {
   }
 }
 
-
-/* GLOBAL HOVER EFFECTS */
-
 /* Header navigation links */
+
 .nav-link {
   transition: color 0.3s ease;
 }
@@ -61,6 +54,7 @@ a {
 }
 
 /* Footer links */
+
 footer a {
   transition: color 0.3s ease;
 }
@@ -80,6 +74,7 @@ footer i:hover {
 }
 
 /* Bootstrap cards */
+
 .service-card,
 .portfolio-card {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -92,7 +87,7 @@ footer i:hover {
 }
 
 
-/* PAGE STYLES */
+/* Page styles */
 
 .hero {
   position: relative;
@@ -155,7 +150,6 @@ footer i:hover {
 }
 
 /* Buttons */
-
 
 .portfolio-card .btn,
 .contact-form .btn {

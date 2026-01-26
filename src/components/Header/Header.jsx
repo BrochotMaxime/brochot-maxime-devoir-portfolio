@@ -36,15 +36,12 @@ export default function Header() {
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             {navLinks.map((link) => (
                                 <li className="nav-item" key={link.path}>
-                                <Link
-                                    href={link.path}
-                                    className={`nav-link text-uppercase ${pathname === link.path ? "fw-bold text-decoration-underline" : ""}`}
-                                >
-                                    {link.name}
-                                </Link>
+                                    <Link href={link.path} className={`nav-link text-uppercase ${pathname === link.path ? "fw-bold text-decoration-underline" : ""}`}>
+                                        {link.name}
+                                    </Link>
                                 </li>
                             ))}
-                            </ul>
+                        </ul>
                     </div>
                 </div>
             </nav>
