@@ -12,7 +12,7 @@ export const metadata = {
 export default function MentionsLegalesPage() {
     return (
         <main className="container py-5">
-            <h1 className="text-center mb-5">Mentions légales</h1>
+            <h1 className="page-title text-center mb-5 pb-4">Mentions légales</h1>
             <LegalAccordion />
         </main>
     );

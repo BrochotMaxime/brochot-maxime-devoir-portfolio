@@ -8,9 +8,9 @@ const personnalData = {
 export default function ContactInfo({name, adress, phone, email}) {
     return (
         <div>
-            <h3 className="section-title mb-5 pb-3">Mes coordonnées</h3>
+            <h2 className="section-title mb-5 pb-3">Mes coordonnées</h2>
 
-            <h4>{personnalData.name}</h4>
+            <h3>{personnalData.name}</h3>
             <span className="bi bi-map d-block"> {personnalData.adress[0]}</span>
             <span className="bi bi-geo-alt d-block"> {personnalData.adress[1]}</span>
             <span className="bi bi-telephone d-block"> {personnalData.phone}</span>

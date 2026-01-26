@@ -10,7 +10,7 @@ export default function ContactPage() {
     return (
         <main className="container py-5">
             <section className="page-title text-center mb-5 pb-4">
-                <h2>Contact</h2>
+                <h1>Contact</h1>
                 <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
             </section>
 

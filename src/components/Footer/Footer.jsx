@@ -8,42 +8,24 @@ export default function Footer() {
 
                     {/* Contact Information */}
                     <div className="col-12 col-md-4 mb-4">
-                        <h5>John Doe</h5>
+                        <h4>John Doe</h4>
                         <address>
-                            40 rue Laure Diebold<br />
-                            69000 Lyon, France<br />
+                            <span>40 rue Laure Diebold</span><br />
+                            <span>69000 Lyon, France</span><br />
                             <a href="tel:102030405060" className="text-light text-decoration-none">10 20 30 40 50</a><br />
                             <a href="mailto:john.doe@gmail.com" className="text-light text-decoration-none">john.doe@gmail.com</a>
                         </address>
 
                         <div className="d-flex gap-3">
-                            <a
-                                href="https://github.com/"
-                                target="_blank"
-                                rel="noopener noreferrer nofollow"
-                                aria-label="GitHub"
-                                className="text-light"
-                            >
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer nofollow" aria-label="GitHub" className="text-light">
                                 <i className="bi bi-github fs-4"></i>
                             </a>
 
-                            <a
-                                href="https://twitter.com/"
-                                target="_blank"
-                                rel="noopener noreferrer nofollow"
-                                aria-label="Twitter"
-                                className="text-light"
-                            >
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow" aria-label="Twitter" className="text-light">
                                 <i className="bi bi-twitter-x fs-4"></i>
                             </a>
 
-                            <a
-                                href="https://www.linkedin.com/"
-                                target="_blank"
-                                rel="noopener noreferrer nofollow"
-                                aria-label="LinkedIn"
-                                className="text-light"
-                            >
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer nofollow" aria-label="LinkedIn" className="text-light">
                                 <i className="bi bi-linkedin fs-4"></i>
                             </a>
                         </div>
@@ -51,7 +33,7 @@ export default function Footer() {
 
                     {/* Navigation */}
                     <div className="col-12 col-md-4 mb-4">
-                        <h5>Liens utiles</h5>
+                        <h4>Liens utiles</h4>
                         <ul className="list-unstyled">
                             <li><Link href="/" className="text-light text-decoration-none">Home</Link></li>
                             <li><Link href="/services" className="text-light text-decoration-none">Services</Link></li>
@@ -63,7 +45,7 @@ export default function Footer() {
 
                     {/* Recent Projects */}
                     <div className="col-12 col-md-4 mb-4">
-                        <h5>Mes dernières réalisations</h5>
+                        <h4>Mes dernières réalisations</h4>
                         <ul className="list-unstyled">
                             <li><Link href="/portfolio" className="text-light text-decoration-none">Fresh Food</Link></li>
                             <li><Link href="/portfolio" className="text-light text-decoration-none">Restaurant Akira</Link></li>
