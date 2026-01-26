@@ -17,7 +17,7 @@ export default function HomeClient() {
     }, []);
 
     return (
-        <main>
+        <>
             <Hero onOpenModal={() => setShowModal(true)} />
             <AboutSkills />
             <GitHubModal
@@ -25,6 +25,6 @@ export default function HomeClient() {
                 onClose={() => setShowModal(false)}
                 githubData={githubData}
             />
-        </main>
+        </>
     );
 }

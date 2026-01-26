@@ -1,6 +1,6 @@
 export default function PortfolioHero() {
     return (
-        <section className="portfolio-hero text-center">
-        </section>
+        <div className="portfolio-hero text-center">
+        </div>
     );
 }

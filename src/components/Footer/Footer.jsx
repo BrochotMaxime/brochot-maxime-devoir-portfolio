@@ -8,7 +8,7 @@ export default function Footer() {
 
                     {/* Contact Information */}
                     <div className="col-12 col-md-4 mb-4">
-                        <h4>John Doe</h4>
+                        <span className="fs-3">John Doe</span>
                         <address>
                             <span>40 rue Laure Diebold</span><br />
                             <span>69000 Lyon, France</span><br />
@@ -33,7 +33,7 @@ export default function Footer() {
 
                     {/* Navigation */}
                     <div className="col-12 col-md-4 mb-4">
-                        <h4>Liens utiles</h4>
+                        <span className="fs-4">Liens utiles</span>
                         <ul className="list-unstyled">
                             <li><Link href="/" className="text-light text-decoration-none">Home</Link></li>
                             <li><Link href="/services" className="text-light text-decoration-none">Services</Link></li>
@@ -45,7 +45,7 @@ export default function Footer() {
 
                     {/* Recent Projects */}
                     <div className="col-12 col-md-4 mb-4">
-                        <h4>Mes dernières réalisations</h4>
+                        <span className="fs-4">Mes dernières réalisations</span>
                         <ul className="list-unstyled">
                             <li><Link href="/portfolio" className="text-light text-decoration-none">Fresh Food</Link></li>
                             <li><Link href="/portfolio" className="text-light text-decoration-none">Restaurant Akira</Link></li>
