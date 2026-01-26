@@ -8,12 +8,12 @@ export const metadata = {
 
 export default function RealisationsPage() {
     return (
-        <main>
+        <>
             <PortfolioHero />
 
-            <section className="container py-5">
+            <div className="container py-5">
                 <PortfolioList />
-            </section>
-        </main>
+            </div>
+        </>
     );
 }

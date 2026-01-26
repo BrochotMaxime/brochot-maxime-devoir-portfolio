@@ -8,20 +8,22 @@ export const metadata = {
 
 export default function ContactPage() {
     return (
-        <main className="container py-5">
-            <section className="page-title text-center mb-5 pb-4">
-                <h1>Contact</h1>
-                <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
-            </section>
+        <>
+            <div className="container py-5">
+                <section className="page-title text-center mb-5 pb-4">
+                    <h1>Contact</h1>
+                    <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
+                </section>
 
-            <section className="row justify-content-center bg-white border rounded-3 shadow-sm p-4">
-                <div className="col-md-6">
-                    <ContactForm />
-                </div>
-                <div className="col-md-6">
-                    <ContactInfo />
-                </div>
-            </section>
-        </main>
+                <section className="row justify-content-center bg-white border rounded-3 shadow-sm p-4">
+                    <div className="col-md-6">
+                        <ContactForm />
+                    </div>
+                    <div className="col-md-6">
+                        <ContactInfo />
+                    </div>
+                </section>
+            </div>
+        </>
     );
 }
